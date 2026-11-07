@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crownfall Studios</title>
+<meta name="description" content="Crownfall Studios is an indie game studio. Our current game is Fortune Frenzy.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+:root{--bg:#06080d;--ink:#ece7dc;--mute:#9a9a96;--ember:#d6ac55;--violet:#8a5cf0;--line:rgba(236,231,220,.18);color-scheme:dark}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;padding:48px 16px;color:var(--ink);text-align:center;
+  font:400 19px/1.5 "Newsreader",Georgia,serif;background:radial-gradient(ellipse at 50% 0,rgba(138,92,240,.2),transparent 60%),var(--bg)}
+h1{margin:0;font:900 clamp(52px,13vw,104px)/.95 "Big Shoulders Display",Impact,sans-serif;letter-spacing:.01em;text-transform:uppercase;color:var(--ember)}
+header p{margin:14px 0 0;color:var(--mute)}
+main{width:100%;max-width:520px;display:grid;gap:40px}
+.logo{display:block;width:min(300px,76%);height:auto;margin:0 auto 12px}
+h2{margin:0;font:700 15px/1 "Big Shoulders Display",Impact,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+section p{margin:10px 0 0}
+ul{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+a{display:inline-block;padding:9px 16px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-size:17px;overflow-wrap:anywhere}
+a:hover,a:focus-visible{border-color:var(--ember);color:var(--ember)}
+a:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+footer{color:var(--mute);font-size:15px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Crownfall Studios</h1>
+  <p>An indie game studio.</p>
+</header>
+<main>
+  <section aria-labelledby="game">
+    <img class="logo" src="fortune-frenzy-logo.png" width="1160" height="670" alt="">
+    <h2 id="game">Our current game</h2>
+    <p>Fortune Frenzy</p>
+    <ul>
+      <li><a href="https://www.instagram.com/fortune_frenzy_official/">Instagram</a></li>
+      <li><a href="https://www.youtube.com/@fortune-frenzy-official">YouTube</a></li>
+    </ul>
+  </section>
+  <section aria-labelledby="studio">
+    <h2 id="studio">Follow the studio</h2>
+    <ul>
+      <li><a href="https://www.instagram.com/crownfall_studios_official/">Instagram</a></li>
+      <li><a href="https://www.youtube.com/@crownfall_studios_official">YouTube</a></li>
+    </ul>
+  </section>
+</main>
+<footer>© Crownfall Studios</footer>
+</body>
+</html>
